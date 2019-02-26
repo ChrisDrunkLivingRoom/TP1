@@ -60,3 +60,15 @@ body {
   background-attachment: fixed;
   background-position: center; 
 }
+
+.conteneur{
+    background-color: #520000;
+    color: white;
+    border-radius: 5px;
+    font-family: arial;
+}
+
+.conteneur h1 {
+  margin: 10px;
+  font-size: 20px;
+}
