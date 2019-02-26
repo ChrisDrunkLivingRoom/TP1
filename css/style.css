@@ -99,7 +99,7 @@ img:hover {
 
 .uneimage {
   -webkit-animation-name: cssAnimation;
-  -webkit-animation-duration:1s;
+  -webkit-animation-duration:2s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: forwards;
@@ -110,6 +110,7 @@ img:hover {
     -webkit-transform: rotate(360deg) scale(2) skew(0deg);
   }
   to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg);
+    -webkit-transform:rotate(0deg) scale(1) skew(0deg);
+    
   }
 }
