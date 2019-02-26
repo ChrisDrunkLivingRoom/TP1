@@ -95,3 +95,21 @@ img:hover {
   width: 445px;
   height: 279px;
 }
+
+
+.uneimage {
+  -webkit-animation-name: cssAnimation;
+  -webkit-animation-duration:1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(360deg) scale(2) skew(0deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg);
+  }
+}
