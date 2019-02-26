@@ -58,7 +58,8 @@ body {
   background-image: url(/image/Background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
+  -webkit-background-size: cover;
 }
 
 section{
@@ -74,3 +75,14 @@ section h1 {
   text-align: center;
 }
 
+
+.flexbox{
+  display: flex;
+  max-width: 100%;
+}
+
+img {
+  width: 405px;
+  height: 239px;
+  margin: 10px 0px 10px 0px;
+}
