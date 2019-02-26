@@ -61,14 +61,16 @@ body {
   background-position: center; 
 }
 
-.conteneur{
+section{
     background-color: #520000;
     color: white;
     border-radius: 5px;
     font-family: arial;
 }
 
-.conteneur h1 {
-  margin: 10px;
+section h1 {
+  padding: 50px;
   font-size: 20px;
+  text-align: center;
 }
+
