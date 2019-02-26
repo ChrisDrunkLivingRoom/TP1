@@ -74,6 +74,10 @@ section{
     font-family: arial;
 }
 
+.menu a:hover{
+  background-color: #330000;
+}
+
 section h1 {
   padding: 50px;
   font-size: 20px;
